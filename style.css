@@ -249,7 +249,15 @@ select:focus {
     color: #4c3e6a;
 }
 
+/* ✅ Responsive scroll wrapper */
+.table-wrapper {
+    overflow-x: auto;
+    width: 100%;
+}
+
+/* ✅ Updated table style */
 .output table {
+    min-width: 500px;
     width: 100%;
     text-align: center;
     border-collapse: collapse;
@@ -306,5 +314,3 @@ footer {
         font-size: 16px;
     }
 }
-
-    
